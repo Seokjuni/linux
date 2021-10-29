@@ -1,15 +1,17 @@
-gration functionality - linux/mm/migrate.c
- *
- *  * Copyright (C) 2006 Silicon Graphics, Inc., Christoph Lameter
- *   *
- *    * Page migration was first developed in the context of the memory hotplug
- *     * project. The main authors of the migration code are:
- *      *
- *       * IWAMOTO Toshihiro <iwamoto@valinux.co.jp>
- *        * Hirokazu Takahashi <taka@valinux.co.jp>
- *         * Dave Hansen <haveblue@us.ibm.com>
- *          * Christoph Lameter
- *           */
+// SPDX-License-Identifier: GPL-2.0
+// /*
+//  * Memory Migration functionality - linux/mm/migrate.c
+//   *
+//    * Copyright (C) 2006 Silicon Graphics, Inc., Christoph Lameter
+//     *
+//      * Page migration was first developed in the context of the memory hotplug
+//       * project. The main authors of the migration code are:
+//        *
+//         * IWAMOTO Toshihiro <iwamoto@valinux.co.jp>
+//          * Hirokazu Takahashi <taka@valinux.co.jp>
+//           * Dave Hansen <haveblue@us.ibm.com>
+//            * Christoph Lameter
+//             
 
 #include <linux/migrate.h>
 #include <linux/export.h>
