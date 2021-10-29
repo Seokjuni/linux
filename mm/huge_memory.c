@@ -1,4 +1,6 @@
-opyright (C) 2009  Red Hat, Inc.
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ *  Copyright (C) 2009  Red Hat, Inc.
  */
 
 #define pr_fmt(fmt) KBUILD_MODNAME ": " fmt
