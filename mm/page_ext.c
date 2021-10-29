@@ -1,4 +1,5 @@
-nclude <linux/mm.h>
+// SPDX-License-Identifier: GPL-2.0
+
 #include <linux/mmzone.h>
 #include <linux/memblock.h>
 #include <linux/page_ext.h>
